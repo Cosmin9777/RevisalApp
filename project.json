@@ -1,0 +1,164 @@
+{
+  "name": "RevisalPOC",
+  "description": "-",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.16.0-preview]",
+    "UiPath.System.Activities": "[22.10.1]",
+    "UiPath.Testing.Activities": "[22.10.0]",
+    "UiPath.UIAutomation.Activities": "[22.10.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bc73f37b-8abb-47af-ad0b-271fe1a542fc",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "edbd7695-4ae1-4088-a647-08f4e947af28",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e572a660-ccef-4c4e-a106-f5eeb8563385",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "70d9fc36-b78d-4ed7-be25-bd2a2fa9aac4",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "21a1c3cf-a997-4dfc-9920-5c3f786195e4",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a48c9b0c-1622-4b04-9c2d-75b078ccb513",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fb849bc6-d8c6-4f03-ac0b-94f6814ebfc2",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_InsertContractDetails.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f3213a3b-6fc3-4403-84f0-b313d5e82c52",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_InsertDataEmployee.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c7752f56-6ab8-408a-9771-394b04166eaa",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_InsertGeneralData.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b488ccdf-2c60-469e-918f-efee301292d6",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_SendOutPutReport.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d6de1193-d8e1-414f-8448-82fd37c96fe1",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_OpenRevisalApp.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "97767b21-e1b9-434e-9b80-fd86f509b41e",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_InsertTypeOfContract.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "000874e7-df67-4dc2-9138-5eddef01c38a",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_InsertSumary.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6731a5e0-ffd3-4c33-a78c-dda8b4f8436b",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_InsertSalaries.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5e09da8e-7c20-4966-944b-bfc805639944",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_CreateOutPutReport.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4c3e12fe-ee3e-4899-a005-35fd91202b5d",
+        "testCaseType": "TestCase",
+        "fileName": "test\\TestCase_ConnectToDataBaseAndExtractData.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "cd7bcf47-5cf9-48c8-bc69-8c8841154b97",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
